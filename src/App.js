@@ -35,7 +35,6 @@ const App = () => {
             {tasks.map((task) => (
                 <TaskItem key={task.id} task={task} />
             ))}
-            <button>limpar Tarefas</button>
         </>
     );
 };
